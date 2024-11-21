@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my new web</title>
+    <link rel="icon" href="pic.jpg">
+     <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <header>
+  <h1>hello maggi</h1>
+  <a href="aboutus.html" target="_blank">Yours learning</a>
+   <hr> 
+   <nav aria-labelledby="primarynavigation">
+    <h2 id="primarynavigation">Primary</h2><ul>
+    <li><a href="#ch4">chapter4</a></li>
+    <li><a href="#ch5">chapter5</a></li>
+    <li><a href="#contact">Contact Me</a></li>
+</ul>
+</nav>
+</header>
+   <hr>
+   <p>want to get</p>
+   <img src="images/img.jpg" alt="boat" title="port coneect" width="1000" height="500">
+    <h2>I am in chapter2</h2>
+    <p><em>press the <strong>Subscribe</strong> button! </em>nice to learn its start learn enter> <br> &nbsp; joe..</p>
+    <h3>learn it</h3>
+    <p>happy for share;it</p>   <hr>
+    <hr> 
+   <figure> <img src="images/pic12.png" alt="bmw" width="1200" height="650" loading="lazy"> 
+     <figurecaption>responsive page</figurecaption></figure>
+    <h3>learn it</h3>
+    <p>happy for share<a href="https://developer.mozilla.org/en-US/"> <abbr title="mozila developer networks">MDN</abbr> </a>it</p>  
+    <address>theni</address> <hr>
+    
+    <hr> 
+    <aside>
+        <details>
+            <summary>Guess the<mark>number of hours</mark>I code per day</summary>
+            <p>I strat at <time datetime="20:00">8pm</time>and I write code for 3hrs everyday night. </p>
+        </details>
+    </aside>
+    
+    <table>
+        <caption>MY SCHEDULE</caption>
+        <th>Timing</th>
+        <th>Activity</th>
+        <tr>
+            <td><time datetime="10:00">10am</time>-
+            <time datetime="11:00">11am</time></td>
+           
+          <td>study time</td> 
+        </tr>
+        <tr>
+            <td>12:00pm-1:30pm</td>
+          <td>lunch</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2pm-6pm</td>
+            <td >free time</td>
+        </tr>
+        <tr>
+            <td >write code</td>
+        </tr>
+        <tr>
+            <td colspan="2">ALL OTHER TIME</td>
+        </tr>
+    </table>
+    <section id="ch4">
+    <p>want to get</p>
+    <h2>I am in chapter4</h2><hr>
+</section>
+    <hr> 
+    <section id="ch5">
+    <p>want to get</p>
+    <h2>I am in chapter5</h2>
+    <p>Most popular types of content
+        Articles. This type of web content develops an idea and incorporates interviews, quotes, and data to support the article's hypothesis. ...<br>
+        Blog posts. Blog posts typically range between 500 and 750 words, focusing on a variety of topics. ...<br>
+        Surveys. ...<br>
+        Quizzes. ...<br>
+        Photos. ...<br>
+        Videos. ...<br>
+        Case studies. .<br>..
+        Website content.</p><br>
+    <hr>
+</section>
+<article id="contact">
+    <h2>contact me</h2>
+    <p>I would like hear from you</p>
+    <form action="https:httpbin.org/get"  method="get">
+       <p><label for="firstName">Firstname:</label>
+        <input type="text" name="firstName" id="firstName" required autocomplete="on"> </p> 
+       <p><label for="lastName">Lastname:</label>
+        <input type="text" name="lastName" id="lastName" required autocomplete="on"> </p> 
+        <p><label for="passWord">Password:</label>
+        <input type="password" name="passWord" id="passWord"> </p>
+       <p> <label for="phone">Phone NO:</label>
+        <input type="tel" name="phone" id="phone" placeholder="9999999999" pattern="[0-9]{3}[0-9]{7}"> </p> 
+        <p><label for="decade">fav decade:</label>
+        <input type="number" name="decade" min="1980" max="2020" value="2005" step="10"> </p> 
+       <!--  <p>
+                <label for="bussiness">Bussiness:</label>
+                <select name="bussiness" id="bussiness" multiple>
+                    <option value="frontend">Frontend</option>
+                    <option value="backend">Backend</option>
+                    <option value="ai" selected>Ai</option>
+                    <option value="marketing">Marketing</option>
+            </select>
+        </p> -->
+       
+        <p>
+            <fieldset>
+            <label for="content">Fav content:</label>
+            <input type="text" name="content" id="content " list="content-list">
+            <datalist id="content-list">
+                <option value="frontend"></option>
+                <option value="backend"></option>
+                <option value="ai" selected></option>
+            </datalist>
+            </fieldset>
+        </p>
+        <p>
+            <fieldset>
+                  <legend>Your fav food</legend>
+                <p>
+                <input type="radio" name="food" id="chicken">
+                <label for="chicken">Chicken</label>
+                </p><p>
+                <input type="radio" name="food" id="mutton">
+                <label for="mutton">Mutton</label>
+               </p> </p>
+                <input type="radio" name="food" id="Other">
+                <label for="Other">Others</label>  
+                </p>
+            </fieldset>
+        </p>
+        <button type="submit">Submit</button>
+        <button type="submit" formaction="https:httpbin.org/get" formmethod="post">Post</button>
+        <button type="reset">Reset</button>
+    </form>
+</article>
+<fieldset>
+      <legend>Send me note</legend>
+      <p>
+      <label for="your message">Your message</label> 
+    </p>
+      <textarea name="message" id="your message" cols="30" rows="10"></textarea>
+</fieldset>
+        <ol><li>frame1</li>
+            <li>frame4</li>    
+            <li>frame2</li>
+        </ol>
+        <dl> <dt>frd1</dt>
+            <dd>its every second is mine</dd>
+            <dt>frd2</dt>
+            <dd>you're best investor</dd>
+        </dl>
+</body>
+<!--ch2:html entity <,whitespace &nbsp
+ch4:list ol 1,2 un . dl dt description term,dd detail like sub heading-def-->
+&lt;  &copy;&gt; <br>
+ <a href="#">Back to top</a>
+</html>
